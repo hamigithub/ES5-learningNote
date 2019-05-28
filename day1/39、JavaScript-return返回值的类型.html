@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    /*
+
+     */
+
+    function f() {
+        alert(`函数要执行了`);
+        for (let i = 0; i < 5; i++) {
+            console.log(i);
+            if (i == 2) {
+                //使用break可以退出当前的循环
+                // break;
+                //continue可以用于跳过当次循环
+                // continue;
+                //使用return可以结束整个函数
+                return;
+            }
+        }
+        alert(`函数执行完了`);
+    }
+
+    // function f1() {
+    //     return 10;
+    // }
+    //
+    // let a = f1();
+    // console.log(a);//10
+
+    /*
+        返回值可以是任意的数据类型
+            也可以是一个对象,也可以是一个函数，因为函数也是一个对象
+     */
+
+    function f1() {
+        let obj = {name: `孙悟空`};
+        return obj;
+    }
+
+    function f2() {
+        function f3() {
+            console.log(`111`)
+        }
+
+        // f3();
+        //将f3函数对象作为返回值返回
+        return f3;
+        //将f3函数的返回值作为返回值返回
+        return f3();
+    }
+</script>
+</body>
+</html>

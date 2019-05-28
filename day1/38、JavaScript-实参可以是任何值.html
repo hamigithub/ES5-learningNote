@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+    /*
+        定义一个函数，判断一个数字是否是偶数，如果是返回true,否则返回false
+     */
+
+    function f(num) {
+        // if (num % 2 === 0) {
+        //     return true;
+        // } else {
+        //     return false;
+        // }
+
+        return num % 2 === 0;
+    }
+
+    console.log(f(4));
+
+    /*
+        定义一个函数，可以根据半径计算一个圆的面积，并返回计算结果
+        3.14*r*r
+     */
+    function mianji(r) {
+        return 3.4 * r * r;
+    }
+
+    console.log(mianji(5));
+
+    /*
+        创建一个函数，可以在控制台中输出一个人的信息
+            可以输出人的name，age，gender，address
+            参数太多容易混淆，而已不便管理
+            我们可以将参数封装到一个对象中，然后通过对象传递
+     */
+    // function sayHello(name, age, gender, address) {
+    //     console.log(`我是${name}，今年我${age}岁了，我是一个${gender}人，我住在${address}`);
+    // }
+
+    // sayHello(`孙悟空`, 18, `男`, `花果山`);
+    //创建一个对象
+    let obj = {
+        name: `孙悟空`,
+        age: 28,
+        gender: `男`,
+        address: `花果山`
+    };
+
+    function sayHello(o) {
+        console.log(`我是${o.name}，今年我${o.age}岁了，我是一个${o.gender}人，我住在${o.address}`);
+    }
+
+    // sayHello(obj);
+
+    /*
+        实参可以是一个对象，也可以是一个函数
+     */
+    function fun(a) {
+        console.log(a);
+        a(obj);
+    }
+
+    // fun(sayHello);
+
+    fun(function () {
+        alert(`hello`);
+    });
+
+    /*
+        mianji()
+            - 调用函数
+            - 相当于使用的函数的返回值
+        mianji
+            - 函数对象
+            - 相当于直接使用函数对象
+     */
+</script>
+</body>
+</html>
