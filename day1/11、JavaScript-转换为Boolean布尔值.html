@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    /*
+    将其他数据类型转换为Boolean
+        - 使用Boolean()函数
+            - 数字--->布尔
+                - 除了 0 和 NaN，其余的都是true
+            - 字符串
+                - 除了空串，其余的都是true，空格符也是true
+            - null和undefined都会转换为false
+
+            - object也会转换成 true
+     */
+    let a = 123;//true
+    a = -123;//true
+    a = 0;//false
+    a = Infinity;//true
+    a = NaN;//false
+
+    //调用Boolean()函数来将a转换为布尔值
+    a = Boolean(a);
+
+    console.log(a);
+    console.log(typeof a);
+</script>
+</body>
+</html>

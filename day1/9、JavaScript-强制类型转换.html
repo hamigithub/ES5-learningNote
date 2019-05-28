@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    /*
+    强制类型转换
+    - 指将一个数据类型强制转换为其他的数据类型
+    - 类型转换主要指，将其他的数据类型，转换为
+        String Number Boolean
+     */
+
+    /*
+    强制转换为 String
+    方式一：
+        - 调用被转换数据类型的toString()方法，
+        - 该方法不会影响到原来的变量，它会将转换的结果返回
+        - null 和 undefined 这两个值没有 toString() 方法，
+          如果调用了就会报错。
+
+    方式二：
+        - 调用String()函数，并将被转换的数据作为参数传递给这个函数
+        - String()函数，可以转换null和undefined
+        - 使用String()函数做强制类型转换时，
+            对于Number 和 Boolean 底层实际上就是调用的 toString()方法
+            但是对于 null 和 undefined，就不会调用 toString() 方法
+                它会将 null 直接转换为 “null”，undefined 同理
+     */
+    let a = 123;
+    //调用a的toString()方法
+    a = a.toString();
+    console.log(typeof a);//string
+
+
+    //调用String()函数，来将b转换成字符串
+    let b = 123;
+    b = String(b);
+    console.log(typeof b);//string
+
+
+//===================================================
+
+//强制类型转换——Number
+    /*
+    将其他数据类型转换为Number
+    转换方式一：
+        使用Number()函数
+        -字符串-->数字
+            1 如果是纯数字的字符串，则直接将其转换为数字
+            2 如果字符串中有非数字的内容，则转换为NaN
+            3 如果字符串中是一个空串或者是一个全试空格的字符串，则转换为0
+        - Boolean-->数字
+            1 true转换为1
+            2 false转换为0
+        - Null-->数字  0
+        - undefined-->数字  NaN
+
+    转换方式二：
+        - 这种方式专门用来对付字符串
+        - parseInt() 把一个字符串转换为一个整数
+        - parseFloat() 把一个字符串转换为一个浮点数
+     */
+
+    let nts="123";
+    //调用Number()函数来将a转换为Number类型
+    nts=Number(nts);
+    console.log(typeof nts);//number
+
+    //混合情况
+    nts="123px";
+    // nts=Number(nts);//NaN，这个方法再遇到一个非法的情况，就会返回NaN
+    //调用parseInt()函数来转换一个字符串
+    //parseInt()可以有效将一个字符串中的有效的整数取出来
+    //parseFloat()和parseInt()作用类似，不同的是它可以获得有效的小数
+    //如果对非String使用以上两个方法，它会先将其转换为String，然后再操作
+    nts=parseInt(nts);
+    console.log(typeof nts);//number
+
+    nts="123a567px";
+    nts=parseInt(nts);
+    console.log(nts);//123,在遇到第一个非数字的东西，则停止继续并立即返回
+</script>
+</body>
+</html>

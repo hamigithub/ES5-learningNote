@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    /*
+    ，运算符
+    使用，可以分割多个语句，一般可以再声明多个变量时使用，
+     */
+
+    //使用，运算符同时声明多个变量
+    // let a, b, c;
+
+    /*
+        就像数学中一样，在JS中运算符也有优先级，
+        比如：先乘除，后加减
+
+        在JS中有一个运算符优先级的表，
+        在表中越靠上，优先级就越高，优先级越高，就越有限计算，
+        如果优先级一样，则从左往右计算
+        但是这个表我们并不需要记忆，如果遇到优先级的不清楚的问题
+        可以使用（）来改变优先级
+     */
+    // let result = 1 + 2 * 3;
+    // console.log(result);//7
+
+
+    /*
+        如果||的优先级高，或者两个一样高，则应该返回3
+        如果与的优先级搞，则应该返回1
+     */
+    let result = 1 || 2 && 3;
+
+    console.log(result);//1
+
+    let result2 = (1 || 2) && 3;
+
+    console.log(result2);
+</script>
+</body>
+</html>

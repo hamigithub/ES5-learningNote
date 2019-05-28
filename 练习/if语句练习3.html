@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>
+    <input id="d1" type="text">
+    <input id="d2" type="text">
+    <input id="d3" type="text">
+</label>
+<script>
+    /*
+        编写程序，由键盘输入三个整数分别存入变量num1、num2、num3，
+        对他们进行排序，并且从小到大输出
+     */
+
+    let input1 = document.getElementById(`d1`);
+    let input2 = document.getElementById(`d2`);
+    let input3 = document.getElementById(`d3`);
+    let num1, num2, num3;
+    input1.oninput = function () {
+        num1 = input1.value * 1;
+        console.log(typeof num1)
+    };
+    input2.oninput = function () {
+        num2 = input2.value * 1;
+        console.log(typeof num2)
+    };
+    input3.oninput = function () {
+        num3 = input3.value * 1;
+        console.log(typeof num3)
+    }
+//输出不做了，太麻烦用if else得写一大堆
+</script>
+</body>
+</html>

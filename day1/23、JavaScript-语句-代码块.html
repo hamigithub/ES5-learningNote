@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+    /*
+        我们的程序时由一条条语句构成的
+        语句时按照自上向下的顺序一条一条执行的
+        在JS中，可以使用{}来为语句进行分组，
+            - 同一个{}中的语句我们称为是一组语句，
+            它们要么都执行，要么都不执行，
+            一个{}中的语句我们也称为一个代码块
+            在代码块的后边不用再写；了
+
+
+       JS中的代码块，只具有分组的作用，没有其它的用途
+           在ES5的标准中：代码块内的内容，在外部是完全可见的
+           而ES6+的标准中：代码块就有独立作用域的效果，比如使用let,const声明的变量，常量
+
+     */
+    alert(`hello`);
+    console.log(`hello`);
+    document.write(`hello`);
+
+    {
+        var a = `hello`;//ES5标准中，变量a对外部是可见的
+        let b = `hello`;//RS6标准中，变量b对外部是不可见的
+        alert(`hello`);
+        console.log(`hello`);
+        document.write(`hello`);
+    }
+
+
+</script>
+</body>
+</html>

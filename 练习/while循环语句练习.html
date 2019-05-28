@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>
+    <input id="d1" type="text">
+    <input id="d2" type="text">
+    <input id="d3" type="text">
+</label>
+<script>
+    /*
+        假如投资的几年利率为5%，试着求从1000块增长到5000块，需要花费多少年
+
+        1000 1000*1.05
+        1050 1050*1.05
+     */
+
+    //定义一个变量，表示当前的钱数
+    let money = 1000;
+    //定义一个计数器
+    let count = 0;
+    //定义一个while循环来计算每年的钱数
+    while (money < 5000) {
+        money *= 1.05;
+        count++;
+    }
+
+    // //第一年的钱数
+    // money *= 1.05;
+    // //第二年的钱数
+    // money *= 1.05;
+    // //第三年的钱数
+    // money *= 1.05;
+    // console.log(money);
+    console.log(count);//33年
+
+    //将prompt放入到一个循环中
+    while (true) {
+        // scope就是小明的期末成绩
+        let scope = prompt(`请输入小明的期末成绩（1-100）：`);
+        //判断用户输入的值是否合法
+        if (scope >= 0 && scope <= 100) {
+            //满足该条件则证明用户的输入合法，推出循环
+            break;
+        }
+        alert(`请输入有效的分数`);
+    }
+</script>
+</body>
+</html>

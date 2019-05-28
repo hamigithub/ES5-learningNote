@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    /*
+    从键盘输入小明的期末成绩
+    当成绩为100时，‘奖励一辆BMW'
+    当成绩为[80-90]时，‘奖励一台iPhone15’
+    当成绩为[60-80]时，‘奖励一本参考书'
+    否则，没有奖励
+     */
+
+    let score = prompt(`请输入小明的期末成绩`);
+
+    console.log(typeof score);
+
+    function fn(vul) {
+        if (vul == 100) {
+            alert(`BWM`)
+        } else if (vul >= 80 && vul <= 90) {
+            alert(`iPhone15`)
+        } else if (vul >= 60 && vul < 80) {
+            alert(`参考书`)
+        } else {
+            alert(`nothing`)
+        }
+    }
+
+    fn(score);
+</script>
+</body>
+</html>

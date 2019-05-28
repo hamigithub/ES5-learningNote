@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>
+    <input id="d1" type="text">
+    <input id="d2" type="text">
+    <input id="d3" type="text">
+</label>
+<script>
+    /*
+        在页面中接收一个用户输入的数字，并判断该数是否是质数。
+        质数：只能被1和它自身整除的数，1不是质数也不是合数，质数必须是大于1的自然数
+     */
+
+    (function f() {
+        let num = prompt(`请输入一个大于1的整数：`);
+        //判断这个值是否合法
+        if (num <= 1) {
+            alert(`该值不合法！`)
+        } else {
+            //创建一个变量来保存当前得数得状态
+            //默认当前num是质数
+            let flag = true;
+
+            //测试如下程序的性能
+            //在程序执行前，开启计时器
+            //console.time()可以用来开启一个计时器
+            //它需要一个字符串作为参数，这个字符串将会作为计时器的标识
+            console.time(`test`);
+
+            //判断num是否为质数
+            //获取2-num之间的数
+            for (let i = 2; i < num; i++) {
+                //判断num是否能被i整除
+
+                if (num % i === 0) {
+                    //如果num能被i整除，则说明num一定不是质数
+                    //设置flag为false
+                    flag = false;
+
+                    //一旦进入判断，则证明i不可能是质数了，此时循环再继续执行已经没有意义
+                    //使用break 来结束循环
+                    break;
+                }
+            }
+
+            //终止计时器
+            //console.timeEnd()用来停止一个计时器，需要一个计时器的名字作为参数
+            console.timeEnd(`test`);
+
+            //如果num是质数则输出
+            // if (flag) {
+            //     alert(`${num}是质数`)
+            // } else {
+            //     alert(`这个不是质数`)
+            // }
+        }
+    })();
+
+</script>
+</body>
+</html>
