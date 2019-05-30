@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+    /*
+        内建对象
+        宿主对象
+        自定义对象
+
+
+        内建对象
+            - 数组（Array）
+                - 数组也是一个对象
+                - 它和我们普通对象功能类似，也是用来存储一些值的
+                - 不同的是普通对象是使用字符串作为属性名的，
+                    而数组使用数字来作为来作为索引操作元素
+                - 索引
+                    从0开始的整数就是索引
+                - 数组的存储性能比普通对象要好，在开发中我们经常使用数组来存储一些数据
+     */
+
+    var arr = [`孙悟空`, `猪八戒`, `沙和尚`];
+
+    /*
+        所谓的遍历数组，就是将数组中所有的元素都取出来
+     */
+    // console.log(arr[0]);
+    // console.log(arr[1]);
+    // console.log(arr[2]);
+
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+    }
+</script>
+</body>
+</html>

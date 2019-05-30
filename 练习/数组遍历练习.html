@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>
+    <input id="d1" type="text">
+    <input id="d2" type="text">
+    <input id="d3" type="text">
+</label>
+<script>
+    /*
+
+     */
+
+    function Person(name, age, gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    Person.prototype.toString = function () {
+        return `Person[name=${this.name},age=${this.age}]`;
+    }
+</script>
+</body>
+</html>
