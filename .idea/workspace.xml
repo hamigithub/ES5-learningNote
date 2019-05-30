@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/32、JavaScript-对象的属性名与属性值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/33、JavaScript-基本数据类型和引用数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/34、JavaScript-对象字面量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/35、JavaScript-函数的简介.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/36、JavaScript-函数的参数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/37、JavaScript-函数的返回值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/38、JavaScript-实参可以是任何值.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/39、JavaScript-return返回值的类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/40、JavaScript-立即执行函数-IIFE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/42、JavaScript-枚举对象中的属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/43、JavaScript-作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/44、JavaScript-变量提升.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/45、JavaScript-debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/46、JavaScript-this.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/47、JavaScript-使用工厂方法创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/作用域练习.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html">
+        <entry file="file://$PROJECT_DIR$/day1/47、JavaScript-使用工厂方法创建对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="392">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -51,13 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/4、JavaScript-标识符.html" />
-        <option value="$PROJECT_DIR$/day1/5、JavaScript-字符串.html" />
-        <option value="$PROJECT_DIR$/day1/5、JavaScript-数据类型.html" />
-        <option value="$PROJECT_DIR$/day1/7、JavaScript-Boolean.html" />
-        <option value="$PROJECT_DIR$/day1/6、JavaScript-Number.html" />
-        <option value="$PROJECT_DIR$/day1/8、JavaScript-Null和undefined.html" />
-        <option value="$PROJECT_DIR$/day1/9、JavaScript-强制类型转换.html" />
         <option value="$PROJECT_DIR$/day1/10、JavaScript-其他进制的数字.html" />
         <option value="$PROJECT_DIR$/day1/11、JavaScript-转换为Boolean布尔值.html" />
         <option value="$PROJECT_DIR$/day1/12、JavaScript-运算符.html" />
@@ -102,14 +92,21 @@
         <option value="$PROJECT_DIR$/day1/39、JavaScript-return返回值的类型.html" />
         <option value="$PROJECT_DIR$/day1/40、JavaScript-立即执行函数-IIFE.html" />
         <option value="$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html" />
+        <option value="$PROJECT_DIR$/day1/42、JavaScript-枚举对象中的属性.html" />
+        <option value="$PROJECT_DIR$/day1/44、JavaScript-变量提升.html" />
+        <option value="$PROJECT_DIR$/day1/43、JavaScript-作用域.html" />
+        <option value="$PROJECT_DIR$/练习/作用域练习.html" />
+        <option value="$PROJECT_DIR$/day1/45、JavaScript-debug.html" />
+        <option value="$PROJECT_DIR$/day1/46、JavaScript-this.html" />
+        <option value="$PROJECT_DIR$/day1/47、JavaScript-使用工厂方法创建对象.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="267" />
-    <option name="y" value="37" />
-    <option name="width" value="1354" />
-    <option name="height" value="979" />
+    <option name="x" value="342" />
+    <option name="y" value="33" />
+    <option name="width" value="1355" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,10 +128,16 @@
               <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
               <item name="day1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ES5-learningNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,6 +151,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\ES5-learningNote\day1" />
+      <recent name="C:\Projects\ES5-learningNote\练习" />
       <recent name="C:\Projects\JavaScriptDemo\day1" />
       <recent name="C:\Projects\JavaScriptDemo\练习" />
     </key>
@@ -178,11 +181,12 @@
       <workItem from="1558701143142" duration="44884000" />
       <workItem from="1558960241188" duration="10158000" />
       <workItem from="1559051634223" duration="15111000" />
+      <workItem from="1559138863401" duration="8573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70153000" />
+    <option name="totallyTimeSpent" value="78726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,9 +198,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="30" width="1083" height="783" extended-state="0" />
+    <frame x="274" y="27" width="1084" height="784" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31614137" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3158397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -219,43 +223,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day9/10.函数.html" />
-    <entry file="file://$PROJECT_DIR$/day1/JavaScript 简介.js" />
-    <entry file="file://$PROJECT_DIR$/day1/1、JavaScript-简介.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/2、JavaScript-基本语法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/3、JavaScript-字面量和变量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/4、JavaScript-标识符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/5、JavaScript-String.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day1/7、JavaScript-Boolean.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -553,6 +520,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day1/40、JavaScript-立即执行函数-IIFE.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -560,10 +534,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html">
+    <entry file="file://$PROJECT_DIR$/day1/42、JavaScript-枚举对象中的属性.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="311">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/43、JavaScript-作用域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/作用域练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/44、JavaScript-变量提升.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/46、JavaScript-this.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/45、JavaScript-debug.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/47、JavaScript-使用工厂方法创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
