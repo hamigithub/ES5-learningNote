@@ -9,11 +9,53 @@
 <script type="text/javascript">
 
     /*
-        创建一个对象
+        对象字面量创建一个对象
      */
-    var obj = {
-        name: `孙悟空`
+    // var obj = {
+    //     name: `孙悟空`,
+    //     age: 18,
+    //     gender: `男`,
+    //     address: `花果山`,
+    //     sayName: function () {
+    //         console.log(this.name)
+    //     }
+    // };
+    // var obj2 = {
+    //     name: `沙和尚`,
+    //     age: 18,
+    //     gender: `男`,
+    //     address: `花果山`,
+    //     sayName: function () {
+    //         console.log(this.name)
+    //     }
+    // };
+    //......
+
+    /*
+        使用工厂方法创建对象
+        通过该方法可以大批量地创建对象
+     */
+    function creatPerson(name, age, gender) {
+        //创建一个新的对象
+        var obj = new Object();
+
+        //想对象中添加属性
+        obj.name = name;
+        obj.age = age;
+        obj.gender = gender;
+        obj.sayName = function () {
+            alert(this.name);
+        };
+
+        //将新的对象返回
+        return obj;
     }
+
+    var obj = creatPerson(`孙悟空`, 18, `男`);
+    var obj2 = creatPerson(`猪八戒`, 18, `男`);
+    var obj3 = creatPerson(`沙和尚`, 18, `男`);
+
+
 </script>
 </body>
 </html>
