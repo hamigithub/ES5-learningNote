@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/48、JavaScript-构造函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/47、JavaScript-使用工厂方法创建对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/47、JavaScript-使用工厂方法创建对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/50、JavaScript-原型对象.html">
+        <entry file="file://$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -45,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/12、JavaScript-算法运算符.html" />
         <option value="$PROJECT_DIR$/day1/13、JavaScript-一元运算符.html" />
         <option value="$PROJECT_DIR$/day1/14、JavaScript-自增和自减.html" />
         <option value="$PROJECT_DIR$/day1/15、JavaScript-逻辑运算符.html" />
@@ -96,12 +93,13 @@
         <option value="$PROJECT_DIR$/day1/48、JavaScript-构造函数.html" />
         <option value="$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html" />
         <option value="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" />
+        <option value="$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="552" />
-    <option name="y" value="392" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="648" />
+    <option name="y" value="380" />
     <option name="width" value="888" />
     <option name="height" value="645" />
   </component>
@@ -180,12 +178,12 @@
       <workItem from="1558960241188" duration="10158000" />
       <workItem from="1559051634223" duration="15111000" />
       <workItem from="1559138863401" duration="8573000" />
-      <workItem from="1559177221868" duration="9681000" />
+      <workItem from="1559177221868" duration="11979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88407000" />
+    <option name="totallyTimeSpent" value="90705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -197,7 +195,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="552" y="392" width="888" height="645" extended-state="0" />
+    <frame x="648" y="380" width="888" height="645" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4035294" />
@@ -223,13 +221,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/10、JavaScript-其他进制的数字.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day1/9、JavaScript-强制类型转换.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -571,15 +562,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="513">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/50、JavaScript-原型对象.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

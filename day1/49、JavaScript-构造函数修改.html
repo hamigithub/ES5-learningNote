@@ -25,10 +25,16 @@
         this.gender = gender;
         this.sayName = fun;
     }
+
     //将sayName方法在全局作用域中定义
-    function fun() {
+    // function fun() {
+    //     alert(this.name);
+    // }
+
+    //向原型中添加sayName方法
+    Person.prototype.sayName = function () {
         alert(this.name);
-    }
+    };
 
     var per = new Person(`孙悟空`, 18, `男`);
     var per2 = new Person(`猪八戒`, 28, `男`);
