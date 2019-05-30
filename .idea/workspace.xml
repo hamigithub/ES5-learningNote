@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" afterDir="false" />
-    </list>
+    <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,7 +16,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="260">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
@@ -98,8 +93,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="648" />
-    <option name="y" value="380" />
+    <option name="x" value="658" />
+    <option name="y" value="273" />
     <option name="width" value="888" />
     <option name="height" value="645" />
   </component>
@@ -178,12 +173,12 @@
       <workItem from="1558960241188" duration="10158000" />
       <workItem from="1559051634223" duration="15111000" />
       <workItem from="1559138863401" duration="8573000" />
-      <workItem from="1559177221868" duration="11979000" />
+      <workItem from="1559177221868" duration="12056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90705000" />
+    <option name="totallyTimeSpent" value="90782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,7 +190,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="648" y="380" width="888" height="645" extended-state="0" />
+    <frame x="658" y="273" width="888" height="645" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4035294" />
@@ -576,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="260">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
