@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/51、JavaScript-原型对象二-原型链.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/52、JavaScript-toString.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/53、JavaScript-垃圾回收.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/54、JavaScript-数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/55、JavaScript-数组字面量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/56、JavaScript-数组的四个方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/57、JavaScript-数组的遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/数组遍历练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/58、JavaScript-forEach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/59、JavaScript-slice和splice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/60、JavaScript-更多的数组的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/数组去重练习.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/数组遍历练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/练习/数组遍历练习.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,10 +22,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/练习/数组遍历练习.html">
+        <entry file="file://$PROJECT_DIR$/练习/password.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+            <state relative-caret-position="469">
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+              <folding>
+                <element signature="e#700#1729#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,11 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/21、JavaScript-条件运算符(三元运算符).html" />
-        <option value="$PROJECT_DIR$/day1/22、JavaScript-逗号运算符.html" />
-        <option value="$PROJECT_DIR$/day1/22、JavaScript-运算符的优先级.html" />
-        <option value="$PROJECT_DIR$/day1/23、JavaScript-语句-代码块.html" />
-        <option value="$PROJECT_DIR$/day1/24、JavaScript-流程控制语句-if语句.html" />
         <option value="$PROJECT_DIR$/练习/if练习1.html" />
         <option value="$PROJECT_DIR$/练习/if语句练习1.html" />
         <option value="$PROJECT_DIR$/练习/if语句练习2.html" />
@@ -100,14 +95,19 @@
         <option value="$PROJECT_DIR$/day1/56、JavaScript-数组的四个方法.html" />
         <option value="$PROJECT_DIR$/day1/57、JavaScript-数组的遍历.html" />
         <option value="$PROJECT_DIR$/练习/数组遍历练习.html" />
+        <option value="$PROJECT_DIR$/day1/58、JavaScript-forEach.html" />
+        <option value="$PROJECT_DIR$/day1/59、JavaScript-slice和splice.html" />
+        <option value="$PROJECT_DIR$/练习/数组去重练习.html" />
+        <option value="$PROJECT_DIR$/day1/60、JavaScript-更多的数组的方法.html" />
+        <option value="$PROJECT_DIR$/练习/password.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="12" />
-    <option name="width" value="1163" />
-    <option name="height" value="992" />
+    <option name="x" value="354" />
+    <option name="y" value="233" />
+    <option name="width" value="918" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +138,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,11 +151,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习" />
+      <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\day1" />
       <recent name="C:\Projects\ES5-learningNote\练习" />
       <recent name="C:\Projects\ES5-learningNote\day1" />
-      <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\day1" />
       <recent name="C:\Projects\JavaScriptDemo\day1" />
-      <recent name="C:\Projects\JavaScriptDemo\练习" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,11 +186,12 @@
       <workItem from="1559138863401" duration="8573000" />
       <workItem from="1559177221868" duration="12056000" />
       <workItem from="1559223283979" duration="9526000" />
+      <workItem from="1559261507614" duration="13294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100308000" />
+    <option name="totallyTimeSpent" value="113602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,9 +203,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="181" y="10" width="930" height="793" extended-state="0" />
+    <frame x="354" y="233" width="918" height="791" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.39261746" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.39177752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -227,41 +229,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/17、JavaScript-赋值运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/18、JavaScript-关系运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/20、JavaScript-相等运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/19、JavaScript-Unicode编码.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/21、JavaScript-条件运算符(三元运算符).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day1/22、JavaScript-运算符的优先级.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -517,27 +484,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/52、JavaScript-toString.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/53、JavaScript-垃圾回收.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/55、JavaScript-数组字面量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/52、JavaScript-toString.html" />
+    <entry file="file://$PROJECT_DIR$/day1/53、JavaScript-垃圾回收.html" />
+    <entry file="file://$PROJECT_DIR$/day1/55、JavaScript-数组字面量.html" />
     <entry file="file://$PROJECT_DIR$/练习/for循环语句练习.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -545,27 +494,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/57、JavaScript-数组的遍历.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/56、JavaScript-数组的四个方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/54、JavaScript-数组.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/56、JavaScript-数组的四个方法.html" />
+    <entry file="file://$PROJECT_DIR$/day1/54、JavaScript-数组.html" />
     <entry file="file://$PROJECT_DIR$/day1/50、JavaScript-原型对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-363">
@@ -573,17 +503,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/51、JavaScript-原型对象二-原型链.html">
+    <entry file="file://$PROJECT_DIR$/day1/51、JavaScript-原型对象二-原型链.html" />
+    <entry file="file://$PROJECT_DIR$/day1/57、JavaScript-数组的遍历.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="198">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/练习/数组遍历练习.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="1242">
+          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/58、JavaScript-forEach.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/59、JavaScript-slice和splice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="961">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <element signature="e#145#489#0" />
+            <element signature="e#495#700#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/数组去重练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/60、JavaScript-更多的数组的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+          <folding>
+            <element signature="e#700#1729#0" />
+          </folding>
         </state>
       </provider>
     </entry>

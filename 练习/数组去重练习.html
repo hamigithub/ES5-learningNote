@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label>
+    <input id="d1" type="text">
+    <input id="d2" type="text">
+    <input id="d3" type="text">
+</label>
+<script>
+    /*
+     */
+
+    let arr = [1, 2, 2, 3, 3, 4, 4, 4, 4, 5, 6];
+
+    //去除数组中重复的数字
+    //获取数组中的每一个元素，也就是遍历
+    for (let i = 0; i < arr.length; i++) {
+        // console.log(arr[i]);
+        //获取当前元素后的所有元素
+        for (let j = i + 1; j < arr.length; j++) {
+            //判断两个元素的值是否相等
+            if (arr[i] == arr[j]) {
+                //如果相等则证明出现了重复的元素，则删除j
+                arr.splice(j, 1);
+                //当删除了当前j躲在的元素之后，后边的元素会自动补位
+                //此时将不会再比较这个元素，我需要再比较一次j所在位置的元素
+
+                //这个j--很关键
+                j--;
+            }
+        }
+    }
+
+    // console.log(arr);//如果没有 j-- 则结果为 [1, 2, 3, 4, 4, 5, 6]
+    console.log(arr);//[1, 2, 3, 4, 5, 6] 在比较后改变 j 的值后，则真正完成整个去重
+
+</script>
+</body>
+</html>

@@ -23,7 +23,43 @@
 
     Person.prototype.toString = function () {
         return `Person[name=${this.name},age=${this.age}]`;
+    };
+
+    let per = new Person(`孙悟空`, 18);
+    let per2 = new Person(`猪八戒`, 12);
+    let per3 = new Person(`沙和尚`, 38);
+    let per4 = new Person(`唐僧`, 48);
+    let per5 = new Person(`白骨精`, 78);
+
+    //将这些person对象放入到一个数组中
+    let perArr = [per, per2, per3, per4, per5];
+
+    /*
+        创建一个后函数，可以将perArr中的满18岁的person提取出来，
+            然后封装到一个新的数组中并返回
+        arr
+            形参，要提取信息的数组
+     */
+    function getAdult(arr) {
+        //创建一个新的数组
+        let newArr = [];
+
+        //遍历arr，获取arr中的person对象
+        //判断person对象的age是否大于等于18
+        //如果大于等于18，则将这个对象添加到 newArr 中
+        for (let i = 0; i < perArr.length; i++) {
+            if (perArr[i].age >= 18) {
+                newArr.push(perArr[i]);
+            }
+        }
+
+
+        //将新的数组返回
+        return newArr;
     }
+
+    let result = getAdult();
+    console.log(result);
 </script>
 </body>
 </html>
