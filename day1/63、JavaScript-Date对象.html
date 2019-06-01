@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    /*
+        Date 对象
+            - 在 JS 中使用 Date 对象来表示一个时间
+     */
+
+    //创建一个Date对象
+    //如果直接使用构造函数创建一个 Date 对象，则会封装为当前代码执行的时间
+    let d = new Date();
+    console.log(d);//Sat Jun 01 2019 09:11:10 GMT+0800 (中国标准时间)
+
+    //创建一个指定的时间对象
+    //需要在构造函数中传递一个表示时间的字符串作为参数
+    //日期的格式 月份/日/年 时:分:秒
+    let d2 = new Date(`06/01/2019 09:15:30`);
+    console.log(d2);
+
+    /*
+        getDate()
+            - 获取当前日期对象是几日
+     */
+    let date = d2.getDate();
+    /*
+        getDay()
+            - 获取当前日期对象是周几
+            - 会返回一个0-6的值
+                0表示周日...
+     */
+    let day = d2.getDay();
+    /*
+        getMonth()
+            - 获取当前时间对象的月份
+            - 会返回一个 0-11 的值
+                0表示一月...
+     */
+    let month = d2.getMonth();
+
+    /*
+        getFullYear()
+            - 获取当前时间对象的年份
+     */
+    let year = d2.getFullYear();
+
+
+    /*
+        getTime()
+            - 获取当前时间对象的时间戳
+            - 时间戳，指的是从格林威治标准时间的1970年1月1日，0时0分0秒
+                到当前日期所花费的毫秒数（1秒=1000毫秒）
+            - 计算机底层在保存时间时，使用的都是时间戳（把年月日时分秒全转换成毫秒）
+                统一单位，为了方便存储
+     */
+    let time = d2.getTime();
+    console.log(time);//1559351730000
+    //转换成各种单位
+    console.log(time / 1000 / 60 / 60 / 24 / 365);
+
+    //中国时区和格林威治时区有8个小时的时差
+    let d3 = new Date(`1/1/1970 0:0:0`);//-28800000
+
+    //利用时间戳来测试代码的执行的性能
+    //获取当前的时间戳
+    let start = Date.now();
+    for (let i = 0; i < 1000; i++) {
+        console.log(i);
+    }
+    let end = Date.now();
+    console.log(`执行了${end - start}毫秒`);
+
+</script>
+</body>
+</html>
