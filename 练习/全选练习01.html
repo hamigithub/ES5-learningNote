@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div style="float: right">
+    <form method="post" action="">
+        <h5>你爱好的运动是？</h5>
+        <label>
+            <input type="checkbox" id="checkedAllBox"/>全选/全不选
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="items" value="足球"/>足球
+        </label>
+        <label>
+            <input type="checkbox" name="items" value="篮球"/>篮球
+        </label>
+        <label>
+            <input type="checkbox" name="items" value="羽毛球"/>羽毛球
+        </label>
+        <label>
+            <input type="checkbox" name="items" value="乒乓球"/>乒乓球
+        </label>
+        <br>
+        <input type="button" id="checkedAllBtn" value="全 选"/>
+        <input type="button" id="checkedNoBtn" value="全不选"/>
+        <input type="button" id="checkedRevBtn" value="反 选"/>
+        <input type="button" id="sendBtn" value="提 交"/>
+    </form>
+</div>
+
+<script>
+    /*
+        全选按钮
+            - 点击按钮以后，4个多选框全都被选中
+     */
+
+    window.onload = function () {
+        //1.#checkedAllBtn
+        //为id为checkedAllBtn的按钮绑定一个单击响应函数
+        let checkedAllBtn = document.getElementById(`checkedAllBtn`);
+        checkedAllBtn.onclick = function () {
+            //获取四个多选框items
+            let items = document.getElementsByName(`items`);
+            //遍历items
+            for (let i = 0; i < items.length; i++) {
+                //通过多选框的checked属性可以来获取或设置多选框的选中状态
+                //设置四个多选框变成选中状态
+                items[i].checked = true;
+            }
+        };
+
+        //2.#checkedNoBtn
+        let checkedNoBtn = document.getElementById(`checkedNoBtn`);
+        checkedNoBtn.onclick = function () {
+            //获取四个多选框items
+            let items = document.getElementsByName(`items`);
+            //遍历items
+            for (let i = 0; i < items.length; i++) {
+                items[i].checked = false;
+            }
+        };
+
+        //3.#checkedRevBtn
+        let checkedRevBtn = document.getElementById(`checkedRevBtn`);
+        checkedRevBtn.onclick = function () {
+            let items = document.getElementsByName(`items`);
+            for (let i = 0; i < items.length; i++) {
+                // if (items[i].checked == true) {
+                //     items[i].checked = false;
+                // } else {
+                //     items[i].checked = true;
+                // }
+                //直接进行反选
+                items[i].checked = !items[i].checked;
+            }
+        };
+        //4.sendBtn
+        let sendBtn = document.getElementById(`sendBtn`);
+        sendBtn.onclick = function () {
+            let items = document.getElementsByName(`items`);
+            for (let i = 0; i < items.length; i++) {
+                if (items[i].checked) {
+                    alert(items[i].value);
+                }
+            }
+        };
+        //5.checkedAllBox
+        /*
+            业务逻辑：
+                - 当它选中时，其余全选中，当它取消时，其余全取消
+
+                在事件的响应函数中，响应函数是给谁绑定的，this就是谁
+         */
+        let checkedAllBox = document.getElementById(`checkedAllBox`);
+        checkedAllBox.onclick = function () {
+            alert(this === checkedAllBox);
+            let items = document.getElementsByName(`items`);
+            for (let i = 0; i < items.length; i++) {
+                // items[i].checked = checkedAllBox.checked;
+                items[i].checked = this.checked;
+            }
+        }
+        //6.items
+    };
+</script>
+</body>
+</html>
