@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script type="text/javascript">-->
+    <!--//获取ID为btn的按钮-->
+    <!--let btn = document.getElementById(`btn`);-->
+    <!--btn.onclick = function () {-->
+    <!--alert(`hello`);-->
+    <!--}-->
+    <!--</script>-->
+    <script type="text/javascript">
+        /*
+            onload 事件会在整个页面加载后执行
+            为 window 绑定一个onload事件
+                该事件对应的响应函数将会在页面加载完成之后执行，
+                这样可以确保我们的代码执行时所有的DOM对象已经加载完毕了
+         */
+        // window.onload = function () {
+        //     let btn = document.getElementById(`btn`);
+        //     btn.onclick = function () {
+        //         alert(`hello`);
+        //     }
+        // }
+
+    </script>
+</head>
+<body>
+<!--
+    我们可以在事件对应的属性中设置一些 JS 代码，
+    这样当事件被触发时，这些代码将会执行
+    这种写法，我们称为 结构 和 行为 耦合，不方便维护，不推荐使用
+-->
+<!--<button id="btn" onclick="alert(`讨厌，你点我干吊？`)">我是一个按钮</button>-->
+<div style="text-align: center">
+    <button id="btn">点我一下</button>
+</div>
+<script type="text/javascript">
+    /*
+        浏览器在加载一个页面时，是按照自上向下的顺序加载的，
+        读取到一行就运行一行，如果将 script 标签写到页面的上边，
+        在代码执行时，页面还没有加载,DOM对象也没有加载，会导致无法获取到DOM
+
+        将JS代码编写到页面的下部就是为了，可以在页面加载完毕后再执行JS代码
+     */
+    //获取ID为btn的按钮
+    //写下面是最优方案，写上面先加载是没必要的操作，除却公司的沙雕乱写
+    let btn = document.getElementById(`btn`);
+    btn.onclick = function () {
+        alert(`hello`);
+    }
+
+</script>
+</body>
+</html>
