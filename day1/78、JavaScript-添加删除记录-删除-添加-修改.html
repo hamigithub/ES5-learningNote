@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    </style>
+    <script type="text/javascript">
+        /*
+            封装，根据id获取元素，并绑定单击响应函数
+         */
+        // function myClick(idStr, fun) {
+        //     let btn = document.getElementById(idStr);
+        //     btn.onclick = fun;
+        // }
+
+        /*
+            删除tr的响应函数，
+            之所以提出来封装，是因为两个\多个地方重复用到，复用性
+         */
+        function delA() {
+            //点击超链接以后，需要删除超链接所在的那行
+            //这里我们点击哪个超链接，this就是谁
+            // alert(this);
+            //获取当前tr，也就是 a标签 （this）的父元素的父元素
+            let tr = this.parentNode.parentNode;
+
+            //获取要删除的元素的名字
+            // let name = tr.getElementsByTagName(`td`)[0].innerHTML;
+            let name = tr.children[0].innerHTML;
+
+            //删除之前增加一个确认功能
+            /*
+                confirm()用于弹出一个带有确认和取消按钮的提示框
+                    需要一个字符串作为参数，该字符串会作为提示文字显示出来
+                如果用户点击确认则会返回true，如果点击取消则返回false
+            */
+            let flag = confirm(`确认删除${name}吗？`);
+            //删除tr,让它老爸干掉它
+            if (flag) {
+                tr.parentNode.removeChild(tr);
+            }
+            /*
+                点击超链接，超链接会跳转页面，这个是超链接的默认行为
+                    但是此时我们不希望出现默认行为，可以通过在响应函数的最后return false来取消默认行为
+                    或者在a标签中写上 href="javascript:;"
+             */
+            return false;
+        }
+
+        /*
+            未修改，最原始版
+        */
+
+        /*window.onload = function () {
+            /!*
+                点击超链接之后，删除一个员工信息
+             *!/
+            //获取所有的超链接
+            let allA = document.getElementsByTagName(`a`);
+
+            //为每个超链接都绑定一个单击响应函数
+            for (let i = 0; i < allA.length; i++) {
+                //是delA而不是delA()，是把这个函数对象赋值给它，而不是函数对象的返回值
+                allA[i].onclick = delA;
+            }
+
+            /!*
+                添加员工的功能
+                    - 点击按钮以后，将员工的信息添加到表格中
+             *!/
+            let addEmpButton = document.getElementById(`addEmpButton`);
+            addEmpButton.onclick = function () {
+                //获取填写的员工信息
+                let name = document.getElementById(`empName`).value;
+                let email = document.getElementById(`email`).value;
+                let salary = document.getElementById(`salary`).value;
+
+                //需要将获取到的信息保存到tr中
+                //创建一个tr
+                let tr = document.createElement(`tr`);
+                //创建四个td
+                let nameTd = document.createElement(`td`);
+                let emailTd = document.createElement(`td`);
+                let salaryTd = document.createElement(`td`);
+                let aTd = document.createElement(`td`);
+
+                //创建一个a元素
+                let a = document.createElement(`a`);
+
+                //创建文本节点
+                let nameText = document.createTextNode(name);
+                let emailText = document.createTextNode(email);
+                let salaryText = document.createTextNode(salary);
+
+                let delText = document.createTextNode(`Delete`);
+
+                //将文本添加到td中
+                nameTd.appendChild(nameText);
+                emailTd.appendChild(emailText);
+                salaryTd.appendChild(salaryText);
+
+                //向a中添加文本
+                a.appendChild(delText);
+                //将a添加到td中
+                aTd.appendChild(a);
+
+                //将td添加到tr中
+                tr.appendChild(nameTd);
+                tr.appendChild(emailTd);
+                tr.appendChild(salaryTd);
+                tr.appendChild(aTd);
+
+                //向a中添加href属性
+                a.href = `javascript:;`;
+
+                //为新添加的a再绑定，单击响应函数
+                a.onclick = delA;
+
+                //获取table
+                let empTable = document.getElementById(`employeeTable`);
+                //注意：因为table标签，浏览器会自动添加一个tbody子标签，虽然没有写在代码中
+                //         那么此时的tr就不能直接添加到table中，而是需要添加到这个隐含的tbody中
+                //获取employeeTable中的tbody，tbody标签会在脚本执行前就生成，所以可直接在JS中获取
+                let empTbody = empTable.getElementsByTagName(`tbody`)[0];
+
+
+                //将tr添加到table中
+                empTbody.appendChild(tr);
+            }
+        };*/
+
+
+
+        /*
+            修改后，简化版
+         */
+        window.onload = function () {
+            /*
+                点击超链接之后，删除一个员工信息
+             */
+            //获取所有的超链接
+            let allA = document.getElementsByTagName(`a`);
+
+            //为每个超链接都绑定一个单击响应函数
+            for (let i = 0; i < allA.length; i++) {
+                //是delA而不是delA()，是把这个函数对象赋值给它，而不是函数对象的返回值
+                allA[i].onclick = delA;
+            }
+
+            /*
+                添加员工的功能
+                    - 点击按钮以后，将员工的信息添加到表格中
+             */
+            let addEmpButton = document.getElementById(`addEmpButton`);
+            addEmpButton.onclick = function () {
+                //获取填写的员工信息
+                let name = document.getElementById(`empName`).value;
+                let email = document.getElementById(`email`).value;
+                let salary = document.getElementById(`salary`).value;
+
+                //需要将获取到的信息保存到tr中
+                //创建一个tr
+                let tr = document.createElement(`tr`);
+
+                //设置tr中的内容,使用innerHTML来简化
+                tr.innerHTML = `<tr><td></td><td></td><td></td><td><a></a></td></tr>`;
+
+                //获取table
+                let empTable = document.getElementById(`employeeTable`);
+                //注意：因为table标签，浏览器会自动添加一个tbody子标签，虽然没有写在代码中
+                //         那么此时的tr就不能直接添加到table中，而是需要添加到这个隐含的tbody中
+                //获取employeeTable中的tbody，tbody标签会在脚本执行前就生成，所以可直接在JS中获取
+                let empTbody = empTable.getElementsByTagName(`tbody`)[0];
+
+
+                //将tr添加到table中
+                empTbody.appendChild(tr);
+            }
+        }
+    </script>
+</head>
+<body>
+<div style="float: right;">
+    <table id="employeeTable">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>&nbsp;</th>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>tom@tom.com</td>
+            <td>5000</td>
+            <td><a href="deleteEmp?id=001">Delete</a></td>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>tom@tom.com</td>
+            <td>5000</td>
+            <td><a href="deleteEmp?id=001">Delete</a></td>
+        </tr>
+        <tr>
+            <td>Jerry</td>
+            <td>jerry@sohu.com</td>
+            <td>8000</td>
+            <td><a href="deleteEmp?id=002">Delete</a></td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>bob@bob.com</td>
+            <td>10000</td>
+            <td><a href="deleteEmp?id=003">Delete</a></td>
+        </tr>
+    </table>
+    <div id="formDiv">
+        <h4>添加新员工</h4>
+        <table>
+            <tr>
+                <td class="word">name:</td>
+                <td class="inp">
+                    <input type="text" name="empName" id="empName"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="word">email:</td>
+                <td class="inp">
+                    <input type="text" name="email" id="email"/>
+                </td>
+            </tr>
+            <tr>
+                <td class="word">salary:</td>
+                <td class="inp">
+                    <input type="text" name="salary" id="salary"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button id="addEmpButton" value="abc">
+                        Submit
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
