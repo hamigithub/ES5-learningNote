@@ -11,12 +11,27 @@
             padding: 10px;
             border: 10px solid red;
         }
+
+        #box4 {
+            width: 200px;
+            height: 300px;
+            background: #bfa;
+            overflow: auto;
+
+        }
+
+        #box5 {
+            width: 450px;
+            height: 600px;
+            background: yellow;
+        }
     </style>
     <script type="text/javascript">
 
         window.onload = function () {
             var box1 = document.getElementById(`box1`);
             var btn01 = document.getElementById(`btn01`);
+            var box4 = document.getElementById(`box4`);
             btn01.onclick = function () {
                 /*
                     clientWidth
@@ -53,6 +68,32 @@
                     offsetTop
                         - 当前元素相对于其定位父元素的垂直偏移量
                  */
+                // alert(box1.offsetLeft);
+
+
+                /*
+                    box4.scrollHeight
+                    box4.scrollWidth
+                        - 可以获取元素整个滚动区域的高度
+                 */
+                // alert(box4.scrollHeight);
+                // alert(box4.scrollWidth);
+
+                /*
+                    scrollLeft
+                        - 可以获取水平滚动条滚动的距离
+                    scrollTop
+                        - 可以获取垂直滚动条滚动的距离
+                 */
+                // alert(box4.scrollTop);
+                // alert(box4.scrollLeft);
+
+                // alert(box4.clientHeight);//283
+
+                //当满足scrollHeight - scrollTop == clientHeight
+                //说明垂直滚动条到底了
+                alert(box4.scrollHeight-box4.scrollTop);//600
+
             }
 
         };
@@ -65,6 +106,10 @@
         <div id="box2" style="position: relative;">
             <div id="box1"></div>
         </div>
+    </div>
+
+    <div id="box4">
+        <div id="box5"></div>
     </div>
     <button id="btn01">点我一下</button>
 </div>
