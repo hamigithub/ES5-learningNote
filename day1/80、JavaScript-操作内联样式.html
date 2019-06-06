@@ -25,10 +25,32 @@
                               这种名称在JS中是不合法的，比如：background-color
                               需要将这种样式名修改为驼峰命名法
                               去掉 - 号，将 - 号后的字母大写
+
+                        我们通过 style 属性设置的样式都是内联样式
+                            而内联样式有较高的优先级，所以通过JS修改的样式往往会立即显示
+
+                        但是如果在样式中写了!importing，则此时样式会有最高的优先级
+                            即使通过JS也不能覆盖该样式，此时将导致JS修改样式失效
+                            所以尽量不要为样式添加!importing
+
+                        通过style属性设置和读取的都是内联样式
                  */
                 box01.style.width = `300px`;
                 box01.style.height = `300px`;
                 box01.style.backgroundColor = `yellow`;
+            };
+
+            //点击按钮2以后，读取元素的样式
+            let btn02 = document.getElementById(`btn02`);
+            btn02.onclick = function () {
+                //读取box1的样式
+                /*
+                    语法：元素.style.样式名
+
+                    通过style属性设置和读取的都是内联样式
+                        无法读取样式表中的样式
+                 */
+                alert(box01.style.width);
             }
         }
 
@@ -39,6 +61,7 @@
     <div style="float: right;">
         <div id="box01"></div>
         <button id="btn01">点我一下</button>
+        <button id="btn02">读取样式</button>
     </div>
 </div>
 </body>

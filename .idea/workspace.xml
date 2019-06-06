@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/79、JavaScript-a的索引问题-var在for中的怪异.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/79、JavaScript-a的索引问题-var在for中的怪异.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day1/79、JavaScript-a的索引问题-var在for中的怪异.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html">
+        <entry file="file://$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="329">
+              <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -55,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/40、JavaScript-立即执行函数-IIFE.html" />
         <option value="$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html" />
         <option value="$PROJECT_DIR$/day1/42、JavaScript-枚举对象中的属性.html" />
         <option value="$PROJECT_DIR$/day1/44、JavaScript-变量提升.html" />
@@ -106,11 +93,12 @@
         <option value="$PROJECT_DIR$/day1/78、JavaScript-添加删除记录-删除-添加-修改.html" />
         <option value="$PROJECT_DIR$/day1/79、JavaScript-a的索引问题-var在for中的怪异.html" />
         <option value="$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html" />
+        <option value="$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="563" />
+    <option name="x" value="769" />
     <option name="y" value="305" />
     <option name="width" value="920" />
     <option name="height" value="687" />
@@ -200,12 +188,12 @@
       <workItem from="1559261507614" duration="74068000" />
       <workItem from="1559562683168" duration="10538000" />
       <workItem from="1559640085537" duration="7164000" />
-      <workItem from="1559780329499" duration="14390000" />
+      <workItem from="1559780329499" duration="19856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206468000" />
+    <option name="totallyTimeSpent" value="211934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,7 +205,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="563" y="305" width="920" height="687" extended-state="0" />
+    <frame x="769" y="305" width="920" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.32199547" />
@@ -243,13 +231,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/43、JavaScript-作用域.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/练习/作用域练习.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="787">
@@ -542,18 +523,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/79、JavaScript-a的索引问题-var在for中的怪异.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="81">
           <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="329">
+          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
         </state>
       </provider>
     </entry>
