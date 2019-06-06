@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/82、JavaScript-更多样式相关的属性.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,10 +18,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html">
+        <entry file="file://$PROJECT_DIR$/day1/82、JavaScript-更多样式相关的属性.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+            <state relative-caret-position="221">
+              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/41、JavaScript-方法-和它与函数的区别.html" />
         <option value="$PROJECT_DIR$/day1/42、JavaScript-枚举对象中的属性.html" />
         <option value="$PROJECT_DIR$/day1/44、JavaScript-变量提升.html" />
         <option value="$PROJECT_DIR$/day1/43、JavaScript-作用域.html" />
@@ -94,6 +98,7 @@
         <option value="$PROJECT_DIR$/day1/79、JavaScript-a的索引问题-var在for中的怪异.html" />
         <option value="$PROJECT_DIR$/day1/80、JavaScript-操作内联样式.html" />
         <option value="$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html" />
+        <option value="$PROJECT_DIR$/day1/82、JavaScript-更多样式相关的属性.html" />
       </list>
     </option>
   </component>
@@ -188,12 +193,12 @@
       <workItem from="1559261507614" duration="74068000" />
       <workItem from="1559562683168" duration="10538000" />
       <workItem from="1559640085537" duration="7164000" />
-      <workItem from="1559780329499" duration="19856000" />
+      <workItem from="1559780329499" duration="24287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211934000" />
+    <option name="totallyTimeSpent" value="216365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,13 +236,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/练习/作用域练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day1/44、JavaScript-变量提升.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -540,8 +538,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/81、JavaScript-获取元素当前的样式-样式表或内联.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+        <state relative-caret-position="275">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/82、JavaScript-更多样式相关的属性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
