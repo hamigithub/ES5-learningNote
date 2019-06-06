@@ -8,7 +8,24 @@
     <script type="text/javascript">
 
         window.onload = function () {
-            
+            let allA = document.getElementsByTagName(`a`);
+
+            // for (var i = 0; i < allA.length; i++) {
+            //     allA[i].onclick = function () {
+            //         //这里的i=allA.length,因为在执行响应函数的时候，for已经执行完了
+            //         alert(i);
+            //         return false;
+            //     }
+            // }
+
+            for (let i = 0; i < allA.length; i++) {
+                allA[i].onclick = function () {
+                    //ES6新标准中，则不存在上面的情况
+                    alert(i);
+                    return false;
+                }
+            }
+
         }
 
     </script>

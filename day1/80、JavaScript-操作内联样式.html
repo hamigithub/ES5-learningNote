@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box01 {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+    <script type="text/javascript">
+
+        window.onload = function () {
+            let box01 = document.getElementById(`box01`);
+            let btn01 = document.getElementById(`btn01`);
+            btn01.onclick = function () {
+                //修改box01的宽度
+                /*
+                    通过JS修改元素的样式：
+                        - 语法： 元素.style.样式名 = 样式值
+
+                        注意：如果CSS的样式名中含有 - 号，
+                              这种名称在JS中是不合法的，比如：background-color
+                              需要将这种样式名修改为驼峰命名法
+                              去掉 - 号，将 - 号后的字母大写
+                 */
+                box01.style.width = `300px`;
+                box01.style.height = `300px`;
+                box01.style.backgroundColor = `yellow`;
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div style="float: right;">
+    <div style="float: right;">
+        <div id="box01"></div>
+        <button id="btn01">点我一下</button>
+    </div>
+</div>
+</body>
+</html>
