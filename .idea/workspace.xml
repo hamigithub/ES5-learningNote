@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/83、JavaScript-事件对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/84、JavaScript-div跟随鼠标移动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/85、JavaScript-事件冒泡-重点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/监听阅读条款滚动条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/87、JavaScript-事件绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/82、JavaScript-更多样式相关的属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/82、JavaScript-更多样式相关的属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,35 +19,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day1/85、JavaScript-事件冒泡-重点.html">
+        <entry file="file://$PROJECT_DIR$/day1/87、JavaScript-事件绑定.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+            <state relative-caret-position="347">
+              <caret line="96" column="12" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="115" selection-end-column="13" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#2824#3192#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/84、JavaScript-div跟随鼠标移动.html">
+        <entry file="file://$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="374">
+              <caret line="65" column="71" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -72,9 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/47、JavaScript-使用工厂方法创建对象.html" />
-        <option value="$PROJECT_DIR$/day1/48、JavaScript-构造函数.html" />
-        <option value="$PROJECT_DIR$/day1/49、JavaScript-构造函数修改.html" />
         <option value="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" />
         <option value="$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html" />
         <option value="$PROJECT_DIR$/day1/51、JavaScript-原型对象二-原型链.html" />
@@ -121,14 +102,17 @@
         <option value="$PROJECT_DIR$/练习/监听阅读条款滚动条.html" />
         <option value="$PROJECT_DIR$/day1/83、JavaScript-事件对象.html" />
         <option value="$PROJECT_DIR$/day1/85、JavaScript-事件冒泡-重点.html" />
-        <option value="$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html" />
         <option value="$PROJECT_DIR$/day1/84、JavaScript-div跟随鼠标移动.html" />
+        <option value="$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html" />
+        <option value="$PROJECT_DIR$/day1/87、JavaScript-事件绑定.html" />
+        <option value="$PROJECT_DIR$/day1/88、JavaScript-事件传播.html" />
+        <option value="$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1049" />
-    <option name="y" value="66" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="673" />
+    <option name="y" value="45" />
     <option name="width" value="1098" />
     <option name="height" value="948" />
   </component>
@@ -223,7 +207,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232585000" />
+    <option name="totallyTimeSpent" value="242756000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,7 +219,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1049" y="66" width="1098" height="948" extended-state="0" />
+    <frame x="909" y="52" width="1098" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4283019" />
@@ -261,8 +245,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/52、JavaScript-toString.html" />
-    <entry file="file://$PROJECT_DIR$/day1/53、JavaScript-垃圾回收.html" />
     <entry file="file://$PROJECT_DIR$/day1/55、JavaScript-数组字面量.html" />
     <entry file="file://$PROJECT_DIR$/练习/for循环语句练习.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -405,6 +387,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day1/84、JavaScript-div跟随鼠标移动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day1/85、JavaScript-事件冒泡-重点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -417,19 +410,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="1377">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day1/84、JavaScript-div跟随鼠标移动.html">
+    <entry file="file://$PROJECT_DIR$/day1/87、JavaScript-事件绑定.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="347">
+          <caret line="96" column="12" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="115" selection-end-column="13" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2824#3192#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="65" column="71" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
         </state>
       </provider>
     </entry>
