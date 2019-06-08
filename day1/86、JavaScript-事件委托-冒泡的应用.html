@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            var btn01 = document.getElementById('btn01');
+            btn01.onclick = function () {
+                alert('点击添加一个超链接');
+            };
+
+            /*
+                为每一个超链接都绑定一个单击响应函数
+             */
+            var allA = document.getElementsByTagName('a');
+            for (var i = 0; i < allA.length; i++) {
+                allA[i].onclick = function () {
+                    alert(1);
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<ul id="u1">
+    <li><a href="javascript:;">超链接1</a></li>
+    <li><a href="javascript:;">超链接2</a></li>
+    <li><a href="javascript:;">超链接3</a></li>
+</ul>
+<button id="btn01">添加一个超链接</button>
+</body>
+</html>
