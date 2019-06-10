@@ -31,7 +31,21 @@
                         3.当鼠标松开时，被拖拽元素被固定在当前位置 onmouseup
              */
             var box1 = document.getElementById('box1');
-            box1.onmousedown = function (event) {
+            var box2 = document.getElementById('box2');
+
+            drag(box1);
+            drag(box2);
+
+        };
+
+        /*
+            提取一个专门用来设置拖拽的函数
+            封装，解耦
+
+            参数：开启拖拽的元素
+         */
+        function drag(obj) {
+            obj.onmousedown = function (event) {
 
                 /*
                     解决IE8拖拽异常的问题
@@ -46,7 +60,7 @@
                 //     box1.setCapture();
                 // }
                 // 这种写法等价于上面的if写法
-                box1.setCapture && box1.setCapture();
+                obj.setCapture && obj.setCapture();
 
                 event = event || window.event;
                 /*
@@ -54,8 +68,8 @@
                 */
                 //div的偏移量：鼠标.clentX - 元素.offsetLeft
                 //div的偏移量：鼠标.clentY - 元素.offsetTop
-                var ol = event.clientX - box1.offsetLeft;
-                var ot = event.clientY - box1.offsetTop;
+                var ol = event.clientX - obj.offsetLeft;
+                var ot = event.clientY - obj.offsetTop;
 
                 //为document绑定一个onmousemove事件，这个事件一定是在box1被点了后才执行的，所以放在里面
                 document.onmousemove = function (event) {
@@ -66,8 +80,8 @@
                     var top = event.clientY - ot;
 
                     //修改box1的位置
-                    box1.style.left = left + 'px';
-                    box1.style.top = top + 'px';
+                    obj.style.left = left + 'px';
+                    obj.style.top = top + 'px';
 
                 };
 
@@ -81,7 +95,7 @@
                     document.onmouseup = null;
 
                     //当鼠标松开时，取消对事件的捕获，兼容IE8的写法，与setCapture()对应
-                    box1.releaseCapture && box1.releaseCapture();
+                    obj.releaseCapture && obj.releaseCapture();
                 };
 
                 /*
@@ -92,8 +106,9 @@
                     但是这招对IE8不起作用
                  */
                 return false;
-            }
+            };
         }
+
     </script>
 </head>
 <body>
