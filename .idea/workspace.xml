@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/87、JavaScript-事件绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/拖拽/拖拽.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习/拖拽/测试-IE8拖拽功能在网页被全选下的异常.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/86、JavaScript-事件委托-冒泡的应用.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,29 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day1/87、JavaScript-事件绑定.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="96" column="12" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="115" selection-end-column="13" />
-              <folding>
-                <element signature="e#2824#3192#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="65" column="71" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,8 +33,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/50、JavaScript-原型对象.html" />
-        <option value="$PROJECT_DIR$/day1/51、JavaScript-原型对象二.html" />
         <option value="$PROJECT_DIR$/day1/51、JavaScript-原型对象二-原型链.html" />
         <option value="$PROJECT_DIR$/day1/52、JavaScript-toString.html" />
         <option value="$PROJECT_DIR$/day1/53、JavaScript-垃圾回收.html" />
@@ -107,14 +82,16 @@
         <option value="$PROJECT_DIR$/day1/87、JavaScript-事件绑定.html" />
         <option value="$PROJECT_DIR$/day1/88、JavaScript-事件传播.html" />
         <option value="$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html" />
+        <option value="$PROJECT_DIR$/练习/拖拽/拖拽.html" />
+        <option value="$PROJECT_DIR$/练习/拖拽/测试-IE8拖拽功能在网页被全选下的异常.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="673" />
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="762" />
+    <option name="y" value="244" />
     <option name="width" value="1098" />
-    <option name="height" value="948" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,6 +118,12 @@
               <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
               <item name="练习" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ES5-learningNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
+              <item name="练习" type="462c0819:PsiDirectoryNode" />
+              <item name="拖拽" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -163,11 +146,11 @@
       <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习\图片切换练习" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习\拖拽" />
       <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\day1" />
       <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习" />
       <recent name="C:\Projects\ES5-learningNote\练习" />
       <recent name="C:\Projects\ES5-learningNote\day1" />
-      <recent name="C:\Projects\JavaScriptDemo\day1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +190,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242756000" />
+    <option name="totallyTimeSpent" value="249530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,8 +202,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="909" y="52" width="1098" height="948" extended-state="0" />
-    <editor active="true" />
+    <frame x="762" y="244" width="1098" height="767" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4283019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -245,14 +227,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/55、JavaScript-数组字面量.html" />
-    <entry file="file://$PROJECT_DIR$/练习/for循环语句练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day1/56、JavaScript-数组的四个方法.html" />
     <entry file="file://$PROJECT_DIR$/day1/54、JavaScript-数组.html" />
     <entry file="file://$PROJECT_DIR$/day1/50、JavaScript-原型对象.html">
@@ -430,8 +404,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day1/88、JavaScript-事件的传播.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="65" column="71" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+        <state relative-caret-position="509">
+          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/拖拽/测试-IE8拖拽功能在网页被全选下的异常.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+          <folding>
+            <element signature="e#471#2371#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/拖拽/拖拽.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
