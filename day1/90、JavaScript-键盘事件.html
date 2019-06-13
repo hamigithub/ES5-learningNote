@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box1 {
+            width: 100px;
+            height: 100px;
+            background: #bbffaa;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            /*
+                键盘事件:
+                    onkeydown
+                        - 按键被按下
+                        - 对于onkeydown 来说，如果按着一个键不松手，则事件则会一直触发
+                        - 当 onkeydown 连续触发时，第一次和第二次之间会间隔稍微长一点，其它的会非常的快
+                            这个设计是为了防止误操作设计的，所以是正常的
+                    onkeyup
+                        - 按键被松开
+                
+                键盘事件一般都会绑定给一些可以获取到焦点的对象或者是document
+            */
+
+            document.onkeydown = function (event) {
+                event = event || window.event;
+                /*
+                    可以通过 keyCode 来获取按键的编码
+                        通过它可以判断哪个按键被按下
+                        除了keyCode，事件中还提供了几个属性
+                        altKey
+                        ctrlKey
+                        shiftKey
+                            - 这三个用来判断阿alt ctrl 和 shift 是否被按下
+                                如果按下，则返回 true，否则返回 false
+                */
+
+                //判断Y键是否被按下
+                // if (event.keyCode === 89) {
+                //     console.log('y');
+                // }
+            };
+
+            //获取input
+            var input = document.getElementsByTagName('input')[0];
+            input.onkeydown = function (event) {
+                event = event || window.event;
+                console.log(event.keyCode);
+                //数字的 keyCode是48-57
+                //使文本框中不能输入数字
+                if (event.keyCode >= 48 && event.keyCode <= 57) {
+                    return false
+                    //但是小键盘的数字依然可以输入，需要继续完善小键盘的数字的keyCode
+                }
+                //取消默认行为,按键的同时，不会向input框中输入内容
+                //在文本框中输入内容，属于onkeydown的默认行为
+                // return false;
+            }
+
+            //onkeyup 和 onkeydown 是一样的
+            // document.onkeyup = function () {
+            //     console.log(2);
+            // };
+        };
+
+        function bind(obj, eventStr, callback) {
+
+            if (obj.addEventListener) {
+                //大部分浏览器兼容的方式
+                obj.addEventListener(eventStr, callback, false);
+            } else {
+                /*
+                    this是谁由调用方式决定
+                    callback.call(obj)
+
+                    -这个地方是使用了底层的原理，改变了callback的调用方式，使callback中的this强行指向事件对象-
+                 */
+                //IE8及以下
+                obj.attachEvent('on' + eventStr, function () {
+                    //在匿名函数中调用回调函数
+                    callback.call(obj);
+                });
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+<div id="box1"></div>
+<input type="text">
+</body>
+</html>
