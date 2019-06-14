@@ -9,82 +9,69 @@
             padding: 0;
         }
 
+        /*
+            设置outer的样式
+         */
         #outer {
-            width: 500px;
+            width: 520px;
+            height: 333px;
+            /*居中*/
             margin: 50px auto;
-            padding: 10px;
-            text-align: center;
+            /*设置背景颜色*/
+            background-color: yellow;
+            /*设置padding*/
+            padding: 10px 0;
+            /*开启相对定位*/
+            position: relative;
+
+            /*隐藏溢出的内容*/
+            overflow: hidden;
+        }
+
+        /*设置imgList*/
+        #imgList {
+            /*去除list的style*/
+            list-style: none;
+            /*设置ul的宽度*/
+            /*width: 2080px;*/
+            /*开启绝对定位，同时，最好给父元素开启相对定位*/
+            position: absolute;
+            /*设置偏移量*/
+            /*
+                每向左移动520px，就会向下移动
+            */
+            left: -520px;
+        }
+
+        /*设置图片中的li*/
+        #imgList li {
+            /*设置浮动*/
+            float: left;
+            /*设置左右外边距*/
+            margin: 0 10px;
         }
     </style>
     <script>
         window.onload = function () {
-            /*
-                使图片可以自动切换
-             */
-            //获取img标签
-            var img1 = document.getElementById("img1");
-            //创建一个数组来保存图片的路径
-            var imgArr = ["img/001.jpg", "img/002.jpg", "img/003.jpg", "img/004.jpg"];
-
-            //创建一个变量，用来保存当前图片的索引
-            var index = 0;
-
-            //定义一个变量，用来保存定时器的标识
-            var timer;
-
-            //为btn01绑定一个单击响应函数
-            var btn01 = document.getElementById('btn01');
-            btn01.onclick = function () {
-
-                /*
-                    目前，我们每点击一次按钮，就会开启一个定时器，
-                        点击多个就会开启多个定时器，这就导致图片的切换速度过快，
-                        并且我们只能关闭最后一次开启的定时器，剩下的都关不掉，因为timer保存的只是最后一个标识
-                */
-                //在开启定时器之前，需要将当前元素上的其它定时器关闭
-                clearInterval(timer);
-
-                /*
-                    开启定时器，来自动切换图片
-                */
-                timer = setInterval(function () {
-                    //使索引自增
-                    index++;
-
-                    //判断索引是否超过最大索引
-                    // if (index >= imgArr.length) {
-                    //     index = 0
-                    // }
-                    // index = index % imgArr.length;
-                    index %= imgArr.length;
-
-                    //修改img1的src属性
-                    img1.src = imgArr[index];
-
-                }, 1000)
-            };
-
-            //为btn02绑定一个单击响应函数
-            var btn02 = document.getElementById('btn02');
-            btn02.onclick = function () {
-                //点击按钮以后，停止图片的自动切换，关闭定时器
-                /*
-                    clearInterval()可以接收任意参数，
-                        如果参数是一个有效的定时器的标识，则停止对应的定时器
-                        如果参数不是一个有效的标识，则什么也不做
-                 */
-                clearInterval(timer);
-            }
-
+            //动态设置imgList的宽度
+            var imgList = document.getElementById('imgList');
+            //获取页面中所有的img标签
+            var imgArr = document.getElementsByTagName('img');
+            //设置imgList的宽度
+            imgList.style.width = 520 * imgArr.length + 'px';
         }
     </script>
 </head>
 <body>
+<!-- 创建一个外部的div，来作为大的容器 -->
 <div id="outer">
-    <p id="info"></p>
-    <img id="img1" src="img/001.jpg" alt="葫芦娃">
-    <button id="btn01">开启</button>
-    <button id="btn02">停止</button>
+    <!-- 创建一个ul，用于放置图片 -->
+    <ul id="imgList">
+        <li><img src="img/001.jpg" alt=""></li>
+        <li><img src="img/002.jpg" alt=""></li>
+        <li><img src="img/003.jpg" alt=""></li>
+        <li><img src="img/004.jpg" alt=""></li>
+    </ul>
 </div>
 </body>
 </html>

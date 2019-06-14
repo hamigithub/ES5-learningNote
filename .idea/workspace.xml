@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/练习/1-定时器的应用/js/tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html" beforeDir="false" afterPath="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/练习/2-轮播图实现/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/练习/2-轮播图实现/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,26 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html">
+        <entry file="file://$PROJECT_DIR$/练习/2-轮播图实现/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/练习/1-定时器的应用/js/tools.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!block;n#move#0" />
-                <element signature="n#!!block;n#getStyle#0" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -59,7 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/66、JavaScript-字符串的方法.html" />
         <option value="$PROJECT_DIR$/day1/67、JavaScript-正则表达式简介.html" />
         <option value="$PROJECT_DIR$/day1/68、JavaScript-正则语法.html" />
         <option value="$PROJECT_DIR$/day1/69、JavaScript-字符串与正则相关的方法.html" />
@@ -110,14 +91,15 @@
         <option value="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用2.html" />
         <option value="$PROJECT_DIR$/练习/1-定时器的应用/js/tools.js" />
         <option value="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html" />
+        <option value="$PROJECT_DIR$/练习/2-轮播图实现/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="533" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="637" />
     <option name="y" value="415" />
     <option name="width" value="739" />
-    <option name="height" value="597" />
+    <option name="height" value="615" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -148,7 +130,7 @@
               <item name="ES5-learningNote" type="b2602c69:ProjectViewProjectNode" />
               <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
               <item name="练习" type="462c0819:PsiDirectoryNode" />
-              <item name="1-定时器的应用" type="462c0819:PsiDirectoryNode" />
+              <item name="2-轮播图实现" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,9 +151,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习" />
       <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习\1-定时器的应用" />
       <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\day1" />
-      <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习" />
       <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\day1\92、JavaScript-History-BOM对象" />
       <recent name="C:\Users\Administrator.SC-201901142317\Documents\GitHub\ES5-learningNote\练习\拖拽" />
     </key>
@@ -215,12 +197,12 @@
       <workItem from="1559827683828" duration="1864000" />
       <workItem from="1560133549292" duration="2716000" />
       <workItem from="1560319483443" duration="15617000" />
-      <workItem from="1560412416594" duration="22370000" />
+      <workItem from="1560412416594" duration="26843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290233000" />
+    <option name="totallyTimeSpent" value="294706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +214,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="533" y="415" width="739" height="597" extended-state="0" />
+    <frame x="637" y="415" width="739" height="615" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.42653352" />
@@ -258,8 +240,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/67、JavaScript-正则表达式简介.html" />
-    <entry file="file://$PROJECT_DIR$/day1/69、JavaScript-字符串与正则相关的方法.html" />
     <entry file="file://$PROJECT_DIR$/day1/70、JavaScript-正则表达式语法.html" />
     <entry file="file://$PROJECT_DIR$/day1/71、JavaScript-邮件的正则.html" />
     <entry file="file://$PROJECT_DIR$/day1/74、JavaScript-文档加载.html" />
@@ -522,6 +502,16 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/2-轮播图实现/img/001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/2-轮播图实现/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
