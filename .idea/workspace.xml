@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/练习/1-定时器的应用/js/tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html" beforeDir="false" afterPath="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,12 +20,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+            <state relative-caret-position="264">
+              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
-                <element signature="e#1671#2970#0" />
-                <element signature="e#3179#3502#0" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/练习/1-定时器的应用/js/tools.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!block;n#move#0" />
+                <element signature="n#!!block;n#getStyle#0" />
               </folding>
             </state>
           </provider>
@@ -35,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day1/65、JavaScript-包装类.html" />
         <option value="$PROJECT_DIR$/day1/66、JavaScript-字符串的方法.html" />
         <option value="$PROJECT_DIR$/day1/67、JavaScript-正则表达式简介.html" />
         <option value="$PROJECT_DIR$/day1/68、JavaScript-正则语法.html" />
@@ -96,13 +108,14 @@
         <option value="$PROJECT_DIR$/day1/95、JavaScript-延时调用-window对象.html" />
         <option value="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用.html" />
         <option value="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用2.html" />
+        <option value="$PROJECT_DIR$/练习/1-定时器的应用/js/tools.js" />
         <option value="$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="226" />
-    <option name="y" value="398" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="533" />
+    <option name="y" value="415" />
     <option name="width" value="739" />
     <option name="height" value="597" />
   </component>
@@ -202,12 +215,12 @@
       <workItem from="1559827683828" duration="1864000" />
       <workItem from="1560133549292" duration="2716000" />
       <workItem from="1560319483443" duration="15617000" />
-      <workItem from="1560412416594" duration="20307000" />
+      <workItem from="1560412416594" duration="22370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288170000" />
+    <option name="totallyTimeSpent" value="290233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,10 +232,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="205" y="427" width="739" height="597" extended-state="0" />
+    <frame x="533" y="415" width="739" height="597" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.42705005" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.42653352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +258,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day1/68、JavaScript-正则语法.html" />
     <entry file="file://$PROJECT_DIR$/day1/67、JavaScript-正则表达式简介.html" />
     <entry file="file://$PROJECT_DIR$/day1/69、JavaScript-字符串与正则相关的方法.html" />
     <entry file="file://$PROJECT_DIR$/day1/70、JavaScript-正则表达式语法.html" />
@@ -492,13 +504,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/练习/1-定时器的应用/js/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#move#0" />
+            <element signature="n#!!block;n#getStyle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/练习/1-定时器的应用/定时器的应用3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        <state relative-caret-position="264">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
-            <element signature="e#1671#2970#0" />
-            <element signature="e#3179#3502#0" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
