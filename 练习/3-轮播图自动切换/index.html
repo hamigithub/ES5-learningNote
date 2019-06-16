@@ -129,9 +129,10 @@
 
                 //为超链接都绑定单击响应函数
                 allA[i].onclick = function () {
+                    //关闭
+                    clearInterval(timer);
                     //需要知道，获取点击超链接的索引
                     //用let可以解决，但是这里先不用
-
                     //获取点击超链接的索引，并将其设置为index
                     index = this.num;
 
@@ -149,13 +150,27 @@
 
                     //使用move()函数来切换图片
                     move(imgList, "left", -520 * index, 20, function () {
-
+                        //点击的动画执行完了之后，再重新开启自动的动画
+                        autoChange();
                     });
                 }
             }
 
+            //自动切换图片
+            autoChange();
+
             //创建一个方法用来设置选中的a
             function setA() {
+                //判断当前索引是否是最后一张图片
+                if (index >= imgArr.length - 1) {
+                    //则将index设置为0
+                    index = 0;
+
+                    //此时显示的是最后一张，而最后一张图片和第一张是一模一样的，
+                    //通过CSS将最后一张一下子切换成第一张
+                    imgList.style.left = 0;
+                }
+
                 //遍历所有的A，并将它们的背景颜色设置为红色
                 for (var i = 0; i < allA.length; i++) {
                     //这里如果直接设置为红色，样式表中设置的hover效果将会被内联样式覆盖而导致不生效
@@ -166,6 +181,27 @@
 
                 //并将选中的a设置为黑色
                 allA[index].style.backgroundColor = 'black';
+            }
+
+            //定义一个自动切换的定时器的标识
+            var timer;
+
+            //创建一个函数，用来开启自动切换图片
+            function autoChange() {
+                //开启一个定时器，用来定时去切换图片
+                timer = setInterval(function () {
+                    //使索引自增
+                    index++;
+
+                    //判断index的值
+                    index %= imgArr.length;
+
+                    //执行动画，切换图片
+                    move(imgList, "left", -520 * index, 20, function () {
+                        //修改导航按钮
+                        setA();
+                    })
+                }, 3000)
             }
 
         }
@@ -180,6 +216,7 @@
         <li><img src="img/002.jpg" alt=""></li>
         <li><img src="img/003.jpg" alt=""></li>
         <li><img src="img/004.jpg" alt=""></li>
+        <li><img src="img/001.jpg" alt=""></li>
     </ul>
     <!-- 创建导航按钮 -->
     <div id="navDiv">
