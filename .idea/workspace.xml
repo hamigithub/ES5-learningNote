@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7128568-6c4d-4ce9-b518-d399ff590dbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day1/96、JavaScript-类的操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/97、JavaScript-JSON.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day1/js/json2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/2-轮播图实现/tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/img/001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/img/002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/img/003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/img/004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/3-轮播图自动切换/tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/css/bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/css/collapsed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/css/expanded.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/css/linkarrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/css/sdmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/css/title.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/css/toptitle.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/img/001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/img/002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/img/003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/img/004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/sdmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/4-二级菜单/二级菜单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/tools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习/2-轮播图实现/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/练习/2-轮播图实现/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,17 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day1/97、JavaScript-JSON.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,8 +86,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="911" />
-    <option name="y" value="100" />
+    <option name="x" value="296" />
+    <option name="y" value="139" />
     <option name="width" value="977" />
     <option name="height" value="883" />
   </component>
@@ -137,27 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ES5-learningNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ES5-learningNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ES5-learningNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ES5-learningNote" type="462c0819:PsiDirectoryNode" />
-              <item name="练习" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -165,7 +107,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/project/vue-musicSeason" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -220,11 +162,12 @@
       <workItem from="1560133549292" duration="2716000" />
       <workItem from="1560319483443" duration="15617000" />
       <workItem from="1560412416594" duration="50792000" />
+      <workItem from="1560827940150" duration="1937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318655000" />
+    <option name="totallyTimeSpent" value="320592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,8 +179,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="911" y="100" width="977" height="883" extended-state="0" />
-    <editor active="true" />
+    <frame x="296" y="139" width="977" height="883" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4259851" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -552,20 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/练习/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/96、JavaScript-类的操作.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/练习/4-二级菜单/sdmenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -593,7 +521,27 @@
     <entry file="file://$PROJECT_DIR$/day1/97、JavaScript-JSON.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/练习/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="n#!!block;n#addClass#0" />
+            <element signature="n#!!block;n#hasClass#0" />
+            <element signature="n#!!block;n#removeClass#0" />
+            <element signature="n#!!block;n#toggleClass#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day1/96、JavaScript-类的操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
